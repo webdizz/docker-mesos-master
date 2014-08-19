@@ -14,4 +14,3 @@ RUN mkdir -p /etc/service/mesos
 ADD mesos-master.sh /etc/service/mesos/run
 
 EXPOSE 5050
-CMD ["mesos-master"]
